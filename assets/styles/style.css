@@ -1,0 +1,35 @@
+.services {
+    background-color: #F1F9EE;
+    color: #2A1E25;
+    padding: 2rem;
+    text-align: center;
+}
+
+.title-service {
+    font-family: 'Roboto Mono';
+    font-weight: bold;
+    font-size: 5rem;
+    padding: 5rem;
+}
+
+.section-service {
+    padding: 2rem 5rem;
+}
+
+.image-service {
+    width: 15rem;
+    height: 15rem;
+    left: 15rem;
+    top: 15rem;
+}
+
+.services-title {
+    padding: 1.5rem;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+}
+
+.service-p{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.9rem;
+}
