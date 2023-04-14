@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&family=Roboto+Mono:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1&family=Roboto+Mono:wght@100;400;700&display=swap');       
+
 .services {
     background-color: #F1F9EE;
     color: #2A1E25;
@@ -32,4 +35,137 @@
 .service-p{
     font-family: 'Roboto Mono', monospace;
     font-size: 0.9rem;
+}
+
+.downloadsection{
+    background-color: #FFD33B;
+    padding: 40px;
+}
+.aboutussection{
+    padding-top: 1px;
+    background-color: #AAA6A6;
+}
+.createproduct{
+    margin:40px;
+    font-family: Roboto Mono;
+    font-size: 48px;
+}
+.withjust{
+    font-family: M PLUS 1;
+    font-size: 30px;
+    height: 160px;
+}
+.downloadnow{
+    height: 100px;
+    font-family: Roboto Mono;
+    font-size: 36px;
+}
+.stores{
+    height: 100px;
+}
+.app{
+    margin-right: 40px;
+}
+.download{
+    margin-right: 20px;
+}
+.separationdownload{
+    margin-bottom: 40px;
+}
+.aboutus{
+    font-size: 64px;
+    font-family: Roboto Mono;
+    font-weight: bold;
+    margin: 80px;
+}
+.missionpic{
+    height: 320px;
+    margin-left: 100px;
+}
+.visionpic{
+    height: 320px;
+}
+.vision{
+    padding: 100px;
+}
+.missiontext{
+    padding: 30px;
+    font-size: 38px;
+    font-family: M PLUS 1;
+}
+.visiontext{
+    padding: 20px;
+    font-size: 38px;
+    font-family: M PLUS 1;
+}
+
+@media (min-width: 320px) and (max-width: 575px) 
+{
+    .container {
+        width: 635px;
+    }
+    .withjust{
+        font-size: 26px;
+    }
+    .app{
+        margin-right: 115px;
+    }
+    .downloadnow{
+        margin-top: 30px;
+        height: 80px;
+    }
+    .missionpic{
+        height: 260px;
+    }
+    .visionpic{
+        height: 260px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .createproduct{
+        font-size: 28px;
+    }
+    .withjust{
+        font-size: 22px;
+    }
+    .app{
+        width:  380px;
+    }
+    .downloadnow{
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .storespace{
+        margin-left: 50px;
+    }
+    .aboutus{
+        font-size: 28px;
+    }
+    .missiontext{
+        font-size: 24px;
+    }
+    .missionpic{
+        padding-right: 100px;
+        height: 200px;
+    }
+    .visiontext{
+        font-size: 24px;                
+    }
+    .visionpic{
+        height: 250px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) 
+{
+    .createproduct{
+        font-size: 40px;
+    }
+    .downloadnow{
+        margin-top: 50px;
+        font-size: 25px;
+    }
+    .stores{
+        height: 80px;
+    }
 }
