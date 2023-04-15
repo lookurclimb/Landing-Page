@@ -117,17 +117,18 @@ p {
     font-size: 0.9rem;
 }
 
+/*Download and Abou Us*/
 
-
-
-.downloadsection {
+.Download{
     background-color: #FFD33B;
-    padding: 40px;
+    padding: 2rem;
+    text-align: center;
 }
 
-.aboutussection {
+.Abou-Us{
     padding-top: 1px;
     background-color: #AAA6A6;
+    text-align: center;
 }
 
 .createproduct {
