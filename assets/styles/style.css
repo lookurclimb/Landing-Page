@@ -46,7 +46,7 @@
 
 .home {
     min-height: 90vh;
-    background: url("/assets/images/");
+    background: url("/assets/images/Home/principal.jpg");
     background-size: cover;
     background-position: center;
 }
@@ -116,6 +116,9 @@ p {
     font-family: 'Roboto Mono', monospace;
     font-size: 0.9rem;
 }
+
+
+
 
 .downloadsection {
     background-color: #FFD33B;
