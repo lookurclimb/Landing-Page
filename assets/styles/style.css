@@ -46,7 +46,7 @@
 
 .home {
     min-height: 90vh;
-    background: url("/assets/images/Home/principal.jpg");
+    background: url("/assets/images/Home/principal.png");
     background-size: cover;
     background-position: center;
 }
