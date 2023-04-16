@@ -60,19 +60,22 @@
 
     transition: all 0.8s ease;
 }
-
 .home .container button:hover {
     transition: all 0.6s ease;
     filter: brightness(50%);
 }
 
-.home-h, .home-p {
+.home .container h1, p {
     color: #F1F9EE;
     text-shadow: black 3px 3px 2px;
 }
 
-.home .container h1 {
+.home .container h1{
     font-size: 3rem;
+}
+
+.home .container p{
+    margin-right: 0px;
 }
 
 .home .container {
@@ -365,7 +368,7 @@ margin-bottom: 24px;
 text-align: center;
 }
 
-section p {
+.services p {
     font: normal 16px 'M PLUS 1', sans-serif;
     max-width: 800px;
     text-align: center;
